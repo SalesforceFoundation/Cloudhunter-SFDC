@@ -45,10 +45,6 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Cloud_Hunter</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>Achievement__c.Image_ID__c</members>
         <members>Achievement__c.Image__c</members>
         <members>Achievement__c.Junction_Id__c</members>
@@ -131,6 +127,7 @@
         <name>FieldSet</name>
     </types>
     <types>
+        <members>Achievement__c-Achievement Layout</members>
         <members>Achievement__c-Achievements Layout</members>
         <members>Game__c-Game Layout</members>
         <members>Mission__c-Mission Layout</members>
@@ -186,5 +183,5 @@
         <members>Achievement__c.Update Points Awarded</members>
         <name>WorkflowRule</name>
     </types>
-    <version>25.0</version>
+    <version>27.0</version>
 </Package>
