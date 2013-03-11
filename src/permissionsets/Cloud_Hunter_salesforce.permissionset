@@ -325,6 +325,26 @@
         <apexPage>Template</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <tabSettings>
+        <tab>Achievement__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Game__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Mission__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Place__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Player__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>false</enabled>
@@ -332,47 +352,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ActivateOrder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ActivitiesAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowContacts20</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowDeleteDandBCompany</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowReadDandBCompany</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AllowSFDCToAdminOrg</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ApiImpersonateUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ApiUserOnly</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ApproveContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ApproveOrder</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -384,15 +368,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>BypassEmailApproval</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CanInsertFeedSystemFields</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CanSave</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -400,15 +376,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ChatterCanBeFollowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ChatterFileLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterFollow</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -424,22 +392,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ChatterViewAllGroups</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterViewAllUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ChatterViewFullUserProfile</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ConsoleTab</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ContentAdministrator</name>
     </userPermissions>
     <userPermissions>
@@ -448,23 +400,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>CreateCustomizeDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateDashboardFolders</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CreatePackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateReportFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -480,31 +416,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>DataExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DeferSharingCalculations</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DelegatedPortalUserAdmin</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>DeleteActivatedContract</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DivisionAffected</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditActivatedOrders</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -524,15 +440,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EditForecast</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EditHtmlTemplates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditInvoice</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -540,23 +448,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EditMyDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditMyReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EditOppLineItemUnitPrice</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditOwnQuota</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EditPayment</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -588,10 +480,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EmailAdministration</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
@@ -600,27 +488,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EmailTemplateManagement</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>ExportReport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>FlowUFLRequired</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ForecastTab</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>HasFileSync</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -636,15 +508,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>InboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>IsSsoEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -696,10 +560,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageDashbdsInPubFolders</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -717,10 +577,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ManageEmailClientConfig</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageEntitlements</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -744,35 +600,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageNetworks</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManagePackageLicenses</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManagePartnerNetConn</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManagePartners</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageQuotas</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageRealm</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageRemoteAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageReportsInPubFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -785,14 +617,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ManageSynonyms</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageTerritories</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -816,35 +640,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>OfflineProducts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>OutboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>OverrideForecasts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>PasswordNeverExpires</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>PermitSubscriberLogin</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>PortalSuperUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>PortalTab</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ProcessInvoice</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -856,14 +652,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>RestrictedEmailDomain</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>RunAsynchronousReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
@@ -872,15 +660,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ScheduleJob</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ScheduleReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SecureGatewayAdmin</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -889,18 +669,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>SolutionImport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SubmitOrder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TagManager</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>TestInstanceCreate</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -916,35 +684,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>UnrestrictedLogin</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewAllData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewAllDiscoTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewAllForecasts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewAllUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewCaseInteraction</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewContent</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -956,27 +700,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ViewGlobalHeader</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewKnowledge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ViewMyTeamsDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewPublicDashboards</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewPublicFiles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewPublicReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
