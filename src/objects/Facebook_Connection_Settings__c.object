@@ -3,6 +3,7 @@
     <customSettingsType>Hierarchy</customSettingsType>
     <customSettingsVisibility>Protected</customSettingsVisibility>
     <description>Contains settings for connection to Facebook for implementing the integration interface for photo and post</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Access_Token__c</fullName>

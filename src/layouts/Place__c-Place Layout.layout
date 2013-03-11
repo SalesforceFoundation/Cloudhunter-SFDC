@@ -8,27 +8,11 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Name</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
                 <field>Address1__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Address2__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>City__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>State__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
-                <field>Postal_Code__c</field>
+                <field>Distance_Tolerance__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -36,7 +20,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Distance_Tolerance__c</field>
+                <field>Postal_Code__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Name</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -75,13 +63,12 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>Mission_Type__c</fields>
-        <fields>Description__c</fields>
-        <fields>Max_Point_Value__c</fields>
-        <relatedList>Mission__c.Place__c</relatedList>
-    </relatedLists>
+    <miniLayout>
+        <fields>Address1__c</fields>
+        <fields>Distance_Tolerance__c</fields>
+        <fields>Location__c</fields>
+        <fields>Postal_Code__c</fields>
+    </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
     <showInteractionLogPanel>true</showInteractionLogPanel>
