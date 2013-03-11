@@ -45,6 +45,10 @@
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>Cloud_Hunter</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>Achievement__c.Image_ID__c</members>
         <members>Achievement__c.Image__c</members>
         <members>Achievement__c.Junction_Id__c</members>
